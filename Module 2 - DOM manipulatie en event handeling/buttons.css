@@ -1,0 +1,16 @@
+#container{
+    height:600px;
+    width:600px;
+    background-image:url("bg0.jpg");
+}
+
+.new_image{
+    background-image:url("1.jpg");
+}
+body {
+    background-color: red;
+
+}
+#small-image{
+    background-image:url("0.jpg");
+}

@@ -1,0 +1,14 @@
+#fake_button {
+    border-radius: 5px;
+    border: 1px black;
+    background-color: grey;
+    padding:3px
+}
+.btn {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+    color:white;
+}
+

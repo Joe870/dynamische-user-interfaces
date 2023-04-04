@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"name": "Module 1 - vliegende start",
+			"path": "../../../Leren-programmeren/Module 1 - vliegende start"
+		},
+		{
+			"name": "Module 2 - omgaan met",
+			"path": "../../../Leren-programmeren/Module 2 - omgaan met"
+		},
+		{
+			"name": "Module 3 - keer op keer",
+			"path": "../../../Leren-programmeren/Module 3 - keer op keer"
+		},
+		{
+			"name": "Module 4 - lijstjes en samenstellingen",
+			"path": "../../../Leren-programmeren/Module 4 - lijstjes en samenstellingen"
+		},
+		{
+			"name": "Module 5 - meer functions",
+			"path": "../../../Leren-programmeren/Module 5 - meer functions"
+		},
+		{
+			"path": "../../../../Challenges"
+		},
+		{
+			"path": "../../../../../../../../../../xampp"
+		},
+		{
+			"path": "../../../statische-front-end/Module 1 - elementen en properties"
+		},
+		{
+			"path": "../../../statische-front-end/Module 2 - responsiveness"
+		},
+		{
+			"path": "../../Module 1 - javascript crash course"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
