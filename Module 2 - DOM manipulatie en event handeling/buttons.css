@@ -3,14 +3,49 @@
     width:600px;
     background-image:url("bg0.jpg");
 }
-
-.new_image{
-    background-image:url("1.jpg");
-}
-body {
-    background-color: red;
-
-}
-#small-image{
+.small-image{
+    height:160px;
+    width:160px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image:url("0.jpg");
+}
+.click_1{
+    height:600px;
+    width:600px;
+    background-image:url("bg1.jpg");
+}
+
+.small-image1{
+    background-image:url("1.jpg");
+    height:160px;
+    width:160px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.click_2{
+    height:600px;
+    width:600px;
+    background-image:url("bg2.jpg");
+}
+.small-image2{
+    background-image:url("2.jpg");
+    height:160px;
+    width:160px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.click_3{
+    height:600px;
+    width:600px;
+    background-image:url("bg3.jpg");
+}
+.small-image3{
+    background-image:url("3.jpg");
+    height:160px;
+    width:160px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
 }
