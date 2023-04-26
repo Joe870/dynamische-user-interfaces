@@ -1,7 +1,11 @@
 var image = document.getElementById("image");
 
 document.onkeydown = checkKey;
-image.style.transform = "rotate(90deg)"
+movement_speed = 1
+top = 0
+left =0
+image.style.left = "0px"
+image.style.top = "0px"
 x0 = -4;
 image.style.backgroundPosition =  `-4px 0px`;
 
@@ -14,12 +18,34 @@ function checkKey(e) {
     	console.log("spacebar");
     } else if (e.keyCode == '38') {  // up arrow
         console.log("Up arrow");
+        object[3] += object[4];
+        console.log(object);
+        top -= movement_speed
+        image.style.top = top.toString() + "px"
     } else if (e.keyCode == '40') { // down arrow
         console.log("down arrow");
+        object[3] -= object[4];
+        console.log(object);
+        top += movement_speed
+        image.style.top = top.toString() + "px"
     } else if (e.keyCode == '37') { // left arrow
+        image.style.transform = "rotate(90deg)"
     	console.log("left arrow");
+        object[2] += object[4];
+        console.log(object);
+        left -= movement_speed
+        image.style.left = left.toString() + "px"
+        posArray = image.style.backgroundPosition.split(' ');
+        posArray[0] = (parseInt(posArray[0]) - 84) + 'px';
+        console.dir(posArray)
+        image.style.backgroundPosition = posArray.join(' ');
     } else if (e.keyCode == '39') {   // right arrow
+        image.style.transform = "rotate(90deg)"
     	console.log("right arrow");
+        object[2] -= object[4];
+        console.log(object);
+        left += movement_speed
+        image.style.left = left.toString() + "px"
     	// image.style.backgroundPosition = // check goed de rupsband
         posArray = image.style.backgroundPosition.split(' ');
         posArray[0] = (parseInt(posArray[0]) + 84) + 'px';
@@ -28,20 +54,3 @@ function checkKey(e) {
     }
 }
 
-var tID; //we will use this variable to clear the setInterval()
-function animateScript() {
-var    position = 80; //start position for the image slicer
-const  interval = 100; //100 ms of interval for the setInterval()
-tID = setInterval ( () => {
-document.getElementById("image").style.backgroundPosition = 
-`-${position}px 0px`; 
-//we use the ES6 template literal to insert the variable "position"
-if (position < 672)
-{ position = position + 80;}
-//we increment the position by 256 each time
-else
-{ position = 80; }
-//reset the position to 256px, once position exceeds 1536px
-}
-, interval ); //end of setInterval
-} //end of animateScript()
