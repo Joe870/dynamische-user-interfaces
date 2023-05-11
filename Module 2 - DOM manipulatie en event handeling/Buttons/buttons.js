@@ -1,7 +1,7 @@
+value1 = 0
+value2 = 0
+value3 = 0
 function handle_click(event){
-    value1 = 0
-    value2 = 0
-    value3 = 0
     if(event.target.id == 'knop1'){
         console.dir(event.target.parentElement);
         event.target.parentElement.classList.remove("click_2");
@@ -37,8 +37,3 @@ console.dir(knop1)
 knop1.onclick = handle_click;
 knop2.onclick = handle_click;
 knop3.onclick = handle_click;
-
-
-
-
-

@@ -22,14 +22,16 @@ function checkKey(e) {
         console.log(object);
         top -= movement_speed
         image.style.top = top.toString() + "px"
+        image.style.transform = "rotate(0deg)"
     } else if (e.keyCode == '40') { // down arrow
         console.log("down arrow");
         object[3] -= object[4];
         console.log(object);
         top += movement_speed
         image.style.top = top.toString() + "px"
+        image.style.transform = "rotate(180deg)"
     } else if (e.keyCode == '37') { // left arrow
-        image.style.transform = "rotate(90deg)"
+        image.style.transform = "rotate(-90deg)"
     	console.log("left arrow");
         object[2] += object[4];
         console.log(object);
