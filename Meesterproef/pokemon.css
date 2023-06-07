@@ -1,0 +1,78 @@
+body{
+    background-image: url(battle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pokemon{
+    background-image: url(pokemon1.png), url(piplup.png);
+    background-position: bottom 170px right 0px, bottom 80px left 100px;
+    width: 900px;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+#tekstbox{
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    width:693px;
+    height:100px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#fight{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    width:650px;
+    height: 100px;
+    margin:0;
+}
+#move_damage{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    width:325px;
+    height:100px;
+}
+
+#move_defense{
+    position: fixed;
+    bottom:0px;
+    right:325px;
+    width:325px;
+    height:100px;
+}
+#tekst{
+    bottom:0px;
+    left:0px;
+    width:349px;
+    height:100px;
+}
+
+#stats{
+    width:300px;
+    height:100px;
+    bottom:0px;
+    left:350px;
+    position:fixed;
+}
+#your_health{
+    bottom:200px;
+    left: 100px;
+    position:fixed;
+    background-color: greenyellow;
+    border:black;
+    border-style:solid;
+}
+#rival_health{
+    top:300px;
+    right:450px;
+    position:fixed;
+    background-color: greenyellow;
+    border:black;
+    border-style:solid;
+}
