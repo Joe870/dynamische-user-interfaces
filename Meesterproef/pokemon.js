@@ -1,6 +1,3 @@
-aantal_items = 3
-meerspelen = 'ja'
-aantal_punten = 100 
 character_stats = {}
 player_pokemon = ''
 rival_pokemon = ''
